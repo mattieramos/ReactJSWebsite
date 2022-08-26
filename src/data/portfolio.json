@@ -1,0 +1,51 @@
+{
+    "portfolio": [
+        {
+            "cover": "/portfolio/1/selfDrivingCar.png",
+            "title": "Self Driving Car in Javascript using a Neural Network",
+            "description": "Javascript, HTML, CSS, Neural Networks, VSCode",
+            "url": "https://selfdrivingcar.netlify.app/"
+        },
+        {
+            "cover": "/portfolio/1/cityspots.png",
+            "title": "City Spots",
+            "description": "React.js, Material UI, Rapid API, Google Maps API, VSCode",
+            "url": "https://cityspots.netlify.app/"
+        },
+
+        {
+            "cover": "/portfolio/1/ThreeJS.png",
+            "title": "Three.js Model",
+            "description": "Three.js, CSS, Blender VSCode",
+            "url": "https://matthewlamarthreejs.netlify.app"
+        },
+        
+        {
+            "cover": "/portfolio/1/CoronaVirusTracker.png",
+            "title": "Coronavirus Data Tracker",
+            "description": "Java, Spring Boot, Boot Strap, Intellij Idea",
+            "url": "https://github.com/mattieramos/CoronavirusDataTracker"
+        },
+
+        {
+            "cover": "/portfolio/1/TodoList.png",
+            "title": "Todo List",
+            "description": "Swift, MongoDB Realm, XCode",
+            "url": "https://github.com/mattieramos/TodoListSwift"
+        },
+
+        {
+            "cover": "/portfolio/1/bladeRun.png",
+            "title": "Blade Run",
+            "description": "C#, Visual Studio Code, Unity",
+            "url": "https://github.com/mattieramos/Blade-Run"
+        },
+
+        {
+            "cover": "/portfolio/1/battleOfTheDementors.png",
+            "title": "Battle of The Dementors",
+            "description": "Java, Processing 3D",
+            "url": "https://github.com/mattieramos/Battle-of-The-Dementors"
+        }
+    ]
+}

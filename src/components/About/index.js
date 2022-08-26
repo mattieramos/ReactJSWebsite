@@ -2,8 +2,9 @@ import './index.scss'
 import AnimatedLetters from '../AnimatedLetters'
 import { useEffect, useState } from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faGithub, faJava, faJs, faPython, faReact, faSwift } from '@fortawesome/free-brands-svg-icons'
+import { faGithub, faJava, faJs, faPython, faReact, faSwift, faLinkedin, faGoogleDrive } from '@fortawesome/free-brands-svg-icons'
 import Loader from 'react-loaders'
+
 
 const About = () => {
     const [letterClass, setLetterClass] = useState('text-animate')
@@ -31,16 +32,7 @@ const About = () => {
                     a Software Engineering or Software Development position where 
                     I can use my skills and talents as well as learn all I can. 
                 </p>
-                <p>
-                    My projects page is under construction, but please visit 
-                    https://www.github.com/mattieramos to see all of my projects!
-                </p>
-                <p>
-
-                    You can also view my resume here:
-                    https://drive.google.com/file/d/1m_XovpGR_DWFNQDCpAAd5coBeWe92NOI/view?usp=sharing
-                </p>
-                <p>
+                {/* <p>
                     A bit more detailed version of me: I'm a creative individual 
                     who also takes a logical approach with everything. 
                 </p>
@@ -72,7 +64,37 @@ const About = () => {
                 <p>
                     I'm confident in my skills and have a strong willingness to learn.
                     I look forward to hearing about opportunities!
-                </p>
+                </p> */}
+                <br />
+                    &nbsp;
+                    &nbsp;
+                    <i>
+                        <a
+                            href="https://www.linkedin.com/in/matthew-lamar-ramos/"
+                            target="_blank"
+                            rel="noreferrer"
+                        >
+                            <FontAwesomeIcon icon={faLinkedin} size="3x" color="#4d4d4e" />
+                        </a>
+                        &nbsp;
+                        &nbsp;
+                        <a
+                            href="https://github.com/mattieramos"
+                            target="_blank"
+                            rel="noreferrer"
+                        >
+                            <FontAwesomeIcon icon={faGithub} size="3x" color="#4d4d4e" />
+                        </a>
+                        &nbsp;
+                        &nbsp;
+                        <a
+                            href="https://drive.google.com/file/d/1yIwGfJTScDspOMhEuq71ezZT57Yhsup9/view?usp=sharing"
+                            target="_blank"
+                            rel="noreferrer"
+                        >
+                            <FontAwesomeIcon icon={faGoogleDrive} size="3x" color="#4d4d4e" />
+                        </a>
+                    </i>
           </div>
   
           <div className="stage-cube-cont">
